@@ -1,0 +1,15 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "supabase": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@supabase/mcp-server-supabase@0.5.5",
+        "--access-token",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpcGJib3dzZG5va2hoZWxsbWhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzMTE4ODIsImV4cCI6MjA4OTg4Nzg4Mn0.SS68F22qr5hXn9L_6uDQleAqVEXB0zU2aEO0Hyrp_Bs"
+      ]
+    }
+  }
+}

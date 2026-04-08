@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-03-24T02:52:42.670Z",
+  "admin": {
+    "label": "admin",
+    "email": "morakaba.audit.admin.1774320761810@gmail.com",
+    "password": "Morakaba!Admin1774320761810",
+    "userId": "10095b27-3c66-4aad-ab82-bef0dfceb8cf",
+    "request": {
+      "id": "71ab1566-7531-4078-b0a8-9019df5a0f4b",
+      "status": "pending",
+      "auth_user_id": "10095b27-3c66-4aad-ab82-bef0dfceb8cf"
+    }
+  },
+  "member": {
+    "label": "member",
+    "email": "morakaba.audit.member.1774320761810@gmail.com",
+    "password": "Morakaba!Member1774320761810",
+    "userId": "6734fea4-2b98-4a80-9c4a-081bd0e95cf4",
+    "request": {
+      "id": "13299b69-2ed4-4407-a466-4750f99bf13a",
+      "status": "pending",
+      "auth_user_id": "6734fea4-2b98-4a80-9c4a-081bd0e95cf4"
+    }
+  }
+}

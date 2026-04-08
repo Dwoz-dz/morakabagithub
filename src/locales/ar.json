@@ -1,0 +1,45 @@
+{
+  "app": {
+    "name": "Morakaba",
+    "tagline": "فرقة البحث و الوقاية"
+  },
+  "auth": {
+    "login": "دخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "rememberMe": "تذكرني",
+    "dontHaveAccount": "لا تملك حساب؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signinWithEmail": "دخول بالبريد الإلكتروني",
+    "signupWithEmail": "إنشاء حساب جديد",
+    "waiting": "جاري المراجعة",
+    "pending": "قيد المراجعة",
+    "approved": "موافق عليها"
+  },
+  "errors": {
+    "invalidEmail": "البريد الإلكتروني غير صحيح",
+    "passwordTooShort": "كلمة المرور قصيرة جداً",
+    "passwordMismatch": "كلمات المرور غير متطابقة",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "networkError": "خطأ في الاتصال",
+    "unauthorized": "بيانات الدخول غير صحيحة",
+    "serverError": "خطأ في السيرفر"
+  },
+  "common": {
+    "ok": "موافق",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "loading": "جاري التحميل...",
+    "empty": "لا توجد بيانات",
+    "error": "خطأ",
+    "success": "تم بنجاح"
+  }
+}

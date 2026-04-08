@@ -1,0 +1,36 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+Starting project at c:\Users\mahdi\morakaba
+React Compiler enabled
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+Waiting on http://localhost:8087
+Logs for your project will appear below.
+Android node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android Bundled 3245ms node_modules\expo-router\entry.js (1559 modules)
+Android node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android Bundled 2054ms node_modules\expo-router\entry.js (1 module)
+CommandError: Must specify "expo-platform" header or "platform" query parameter
+CommandError: Must specify "expo-platform" header or "platform" query parameter
+c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: ENOENT: no such file or directory, watch 'c:\Users\mahdi\morakaba\node_modules\@unrs\resolver-binding-darwin-arm64'
+    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)
+    at Object.watch (node:fs:2550:36)
+    at FallbackWatcher._watchdir (c:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:119:33)
+    at c:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:219:22
+    at Walker.<anonymous> (c:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:358:5)
+    at Walker.emit (node:events:518:28)
+    at c:\Users\mahdi\morakaba\node_modules\walker\lib\walker.js:69:16
+    at FSReqCallback.oncomplete (node:fs:188:23) {
+  errno: -4058,
+  syscall: 'watch',
+  code: 'ENOENT',
+  path: 'c:\\Users\\mahdi\\morakaba\\node_modules\\@unrs\\resolver-binding-darwin-arm64',
+  filename: 'c:\\Users\\mahdi\\morakaba\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+}
+
+Node.js v22.14.0

@@ -1,0 +1,16 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+Starting project at c:\Users\mahdi\morakaba
+› Port 8099 is being used by another process
+Error: GetEnv.NoBoolean: 1  is not a boolean.
+Error: GetEnv.NoBoolean: 1  is not a boolean.
+    at Object.boolish (c:\Users\mahdi\morakaba\node_modules\getenv\index.js:70:15)
+    at c:\Users\mahdi\morakaba\node_modules\getenv\index.js:84:27
+    at get CI (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\env.js:60:38)
+    at isInteractive (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\interactive.js:13:22)
+    at prompt (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\prompts.js:67:41)
+    at confirmAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\prompts.js:92:29)
+    at choosePortAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\port.js:169:30)
+    at async resolvePortAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\port.js:194:26)
+    at async resolvePortsAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\start\resolveOptions.js:161:27)
+    at async getMultiBundlerStartOptions (c:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\start\startAsync.js:99:34)

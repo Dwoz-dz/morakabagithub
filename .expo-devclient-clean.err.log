@@ -1,0 +1,17 @@
+C:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: UNKNOWN: unknown error, lstat 'C:\Users\mahdi\morakaba\android\app\.cxx\RelWithDebInfo\1s1qo425\arm64-v8a\CMakeFiles\_CMakeLTOTest-CXX\bin\CMakeFiles\?\C:\Users\mahdi\morakaba\android\app\.cxx\RelWithDebInfo\1s1qo425\arm64-v8a\CMakeFiles\_CMakeLTOTest-CXX\bin\CMakeFiles'
+    at Object.lstat (node:internal/fs/promises:1027:18)
+    at FallbackWatcher._processChange (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:205:20)
+Emitted 'error' event at:
+    at FallbackWatcher.emitError (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\AbstractWatcher.js:70:19)
+    at C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:193:25 {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'lstat',
+  path: 'C:\\Users\\mahdi\\morakaba\\android\\app\\.cxx\\RelWithDebInfo\\1s1qo425\\arm64-v8a\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles\\?\\C:\\Users\\mahdi\\morakaba\\android\\app\\.cxx\\RelWithDebInfo\\1s1qo425\\arm64-v8a\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles'
+}
+
+Node.js v22.14.0

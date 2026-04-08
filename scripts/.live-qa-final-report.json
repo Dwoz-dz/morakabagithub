@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-04-03T17:24:47.967Z",
+  "projectRef": "aipbbowsdnokhhellmhb",
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "results": [
+    {
+      "name": "admin_signin_and_role_check",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:36.138Z",
+      "endedAt": "2026-04-03T17:24:36.964Z",
+      "details": {
+        "adminUserId": "8d7f4ba0-047c-4c41-b4b3-6025b5f39227",
+        "adminEmployeeId": "151cd290-788a-4fb7-94f2-cbc639296038",
+        "credsSource": "qa-admin-fallback",
+        "adminEmail": "morakaba.qa.admin.live@gmail.com"
+      }
+    },
+    {
+      "name": "bucket_existence_check",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:36.964Z",
+      "endedAt": "2026-04-03T17:24:37.173Z",
+      "details": {
+        "mode": "listBuckets-inconclusive",
+        "visibleBuckets": [],
+        "missingFromList": [
+          "weapon-checks",
+          "fuel-bon",
+          "profile-avatars"
+        ],
+        "note": "Will verify bucket existence via real upload tests."
+      }
+    },
+    {
+      "name": "approve_to_employees_flow_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:37.173Z",
+      "endedAt": "2026-04-03T17:24:39.654Z",
+      "details": {
+        "qaMemberEmail": "qa-live-1775237076137.member@gmail.com",
+        "routeBeforeApproval": "/(auth)/waiting-approval",
+        "routeAfterApproval": "/(app)/member",
+        "requestId": "fbaa5410-b2d7-4a07-bca9-2cc39867f2f7",
+        "employeeId": "18bfcc47-7261-492a-b741-92e870c95c1c"
+      }
+    },
+    {
+      "name": "rls_policy_live_checks",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:39.654Z",
+      "endedAt": "2026-04-03T17:24:41.602Z",
+      "details": {
+        "pendingUserId": "c069d2d0-6c7d-46bf-9525-4b38d8f22f00",
+        "pendingUploadError": "new row violates row-level security policy",
+        "memberVehicleInsertError": "new row violates row-level security policy for table \"vehicles\"",
+        "memberActivityLogsError": null
+      }
+    },
+    {
+      "name": "weekly_rest_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:41.602Z",
+      "endedAt": "2026-04-03T17:24:42.373Z",
+      "details": {
+        "assignmentId": "6db608c0-5e8f-433e-8d29-5da068d1c83f",
+        "memberAssignments": 1,
+        "weekStart": "2026-03-28"
+      }
+    },
+    {
+      "name": "notifications_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:42.373Z",
+      "endedAt": "2026-04-03T17:24:43.582Z",
+      "details": {
+        "notificationsCount": 4,
+        "markedReadId": "5b0fa693-02e3-4391-99ca-b034797af02b"
+      }
+    },
+    {
+      "name": "weapon_submissions_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:43.582Z",
+      "endedAt": "2026-04-03T17:24:44.251Z",
+      "details": {
+        "weaponSubmissionId": "1dfed8ae-b87c-4356-9cb9-a2fa7d2f4fbb",
+        "finalStatus": "reviewed"
+      }
+    },
+    {
+      "name": "fuel_submissions_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:44.251Z",
+      "endedAt": "2026-04-03T17:24:44.973Z",
+      "details": {
+        "vehicleId": "6e17dffb-a4a4-4935-9eb8-28e006284567",
+        "fuelEntryId": "8d06925a-2fe8-43d1-b053-d51799d168ee",
+        "finalStatus": "reviewed"
+      }
+    },
+    {
+      "name": "linked_devices_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:44.973Z",
+      "endedAt": "2026-04-03T17:24:45.492Z",
+      "details": {
+        "linkedDeviceId": "ef476e33-621a-44f0-adcc-dabef7315394",
+        "deviceId": "qa-live-1775237076137-device"
+      }
+    },
+    {
+      "name": "support_tickets_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:45.492Z",
+      "endedAt": "2026-04-03T17:24:45.934Z",
+      "details": {
+        "ticketId": "2e8631f5-0ecc-48a8-9d57-c652d6deda9d",
+        "finalStatus": "in_progress"
+      }
+    },
+    {
+      "name": "settings_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:45.934Z",
+      "endedAt": "2026-04-03T17:24:46.314Z",
+      "details": {
+        "keysVisibleToMember": [
+          "app_meta",
+          "notifications_defaults",
+          "terms_content"
+        ],
+        "termsVersion": "2.0-live-qa"
+      }
+    },
+    {
+      "name": "bucket_upload_policy_live",
+      "status": "pass",
+      "startedAt": "2026-04-03T17:24:46.314Z",
+      "endedAt": "2026-04-03T17:24:47.967Z",
+      "details": {
+        "uploadedBuckets": [
+          "weapon-checks",
+          "fuel-bon",
+          "profile-avatars"
+        ],
+        "removedObjects": 3
+      }
+    }
+  ]
+}

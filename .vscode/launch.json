@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "React Native: Launch Android",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "React Native: Launch iOS",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "React Native: Attach to Metro",
+            "type": "reactnative",
+            "request": "attach",
+            "cwd": "${workspaceFolder}",
+            "port": 8081
+        }
+    ]
+}

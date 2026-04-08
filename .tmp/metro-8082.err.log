@@ -1,0 +1,28 @@
+  --non-interactive is not supported, use $CI=1 instead
+Error while reading cache, falling back to a full crawl:
+ Error: Unable to deserialize cloned data.
+    at deserialize (node:v8:405:14)
+    at DiskCacheManager.read (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\cache\DiskCacheManager.js:60:33)
+    at FileMap.read (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\index.js:284:14)
+    at C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\index.js:202:25
+    at DependencyGraph.ready (C:\Users\mahdi\morakaba\node_modules\metro\src\node-haste\DependencyGraph.js:88:5)
+    at Bundler.ready (C:\Users\mahdi\morakaba\node_modules\metro\src\Bundler.js:62:5)
+    at IncrementalBundler.ready (C:\Users\mahdi\morakaba\node_modules\metro\src\IncrementalBundler.js:302:5)
+    at Server.ready (C:\Users\mahdi\morakaba\node_modules\metro\src\Server.js:1305:5)
+C:\Users\mahdi\morakaba\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: UNKNOWN: unknown error, lstat 'C:\Users\mahdi\morakaba\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-xlarge-v4\?\C:\Users\mahdi\morakaba\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-xlarge-v4'
+    at Object.lstat (node:internal/fs/promises:1027:18)
+    at FallbackWatcher._processChange (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:205:20)
+Emitted 'error' event at:
+    at FallbackWatcher.emitError (C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\AbstractWatcher.js:70:19)
+    at C:\Users\mahdi\morakaba\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:193:25 {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'lstat',
+  path: 'C:\\Users\\mahdi\\morakaba\\android\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\?\\C:\\Users\\mahdi\\morakaba\\android\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-xlarge-v4'
+}
+
+Node.js v22.14.0

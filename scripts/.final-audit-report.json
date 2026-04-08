@@ -1,0 +1,41 @@
+{
+  "pending": {
+    "signInError": null,
+    "employee": null,
+    "ownRequest": {
+      "id": "13299b69-2ed4-4407-a466-4750f99bf13a",
+      "status": "pending",
+      "auth_user_id": "6734fea4-2b98-4a80-9c4a-081bd0e95cf4"
+    },
+    "route": "/(auth)/waiting-approval"
+  },
+  "adminVisibility": {
+    "signInError": null,
+    "requestsCount": 3,
+    "canSeeMemberRequest": true
+  },
+  "approval": {
+    "requestUpdateError": null,
+    "employeeUpsertError": null,
+    "rejectRequestError": null,
+    "rejectEmployeeError": null
+  },
+  "routing": {
+    "adminRoute": "/(app)/admin",
+    "memberRouteAfterApprove": "/(app)/member",
+    "memberRouteAfterReject": "/(auth)/blocked-status"
+  },
+  "rls": {
+    "pendingCanSeeFactionsCount": 0,
+    "pendingCanSeeEmployeesCount": 0,
+    "memberOwnRequestsCount": 1,
+    "memberCanSeeOtherRequestsCount": 0,
+    "memberFactionsAfterRejectCount": 0,
+    "adminCanSeeEmployeesCount": 3
+  },
+  "storage": {
+    "pendingUploadError": "new row violates row-level security policy",
+    "approvedUploadError": null,
+    "approvedWrongPathError": "new row violates row-level security policy"
+  }
+}

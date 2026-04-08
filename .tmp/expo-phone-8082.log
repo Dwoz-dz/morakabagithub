@@ -1,0 +1,20 @@
+  --non-interactive is not supported, use $CI=1 instead
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+Starting project at c:\Users\mahdi\morakaba
+React Compiler enabled
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+Error: ENOENT: no such file or directory, open 'C:\Users\mahdi\.expo\native-modules-cache\4eac05f09e7b22357f472d154815c154e11cfd854e20eb7034de1f87ad6b802f-info.json'
+Error: ENOENT: no such file or directory, open 'C:\Users\mahdi\.expo\native-modules-cache\4eac05f09e7b22357f472d154815c154e11cfd854e20eb7034de1f87ad6b802f-info.json'
+    at open (node:internal/fs/promises:638:25)
+    at Object.readFile (node:internal/fs/promises:1242:14)
+    at FileSystemResponseCache.get (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\api\rest\cache\FileSystemResponseCache.ts:48:24)
+    at cachedFetch (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\api\rest\cache\wrapFetchWithCache.ts:11:28)
+    at getNativeModuleVersionsAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\api\getNativeModuleVersions.ts:39:20)
+    at getVersionedNativeModulesAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\start\doctor\dependencies\bundledNativeModules.ts:33:14)
+    at getCombinedKnownVersionsAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\start\doctor\dependencies\getVersionedPackages.ts:58:7)
+    at getVersionedDependenciesAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\start\doctor\dependencies\validateDependenciesVersions.ts:100:33)
+    at validateDependenciesVersionsAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\start\doctor\dependencies\validateDependenciesVersions.ts:49:25)
+    at startAsync (c:\Users\mahdi\morakaba\node_modules\@expo\cli\src\start\startAsync.ts:110:5)
